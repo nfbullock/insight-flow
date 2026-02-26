@@ -1,0 +1,30 @@
+{
+  "id": "insightflow-kids",
+  "name": "InsightFlow Kids",
+  "description": "Daily personalized learning packets for children",
+  "version": "0.1.0",
+  "author": "Milo Rivers",
+  "commands": {
+    "generate-packet": {
+      "description": "Generate a packet for a specific child",
+      "args": ["child_name"]
+    },
+    "test-packet": {
+      "description": "Generate test packets for review"
+    },
+    "update-profile": {
+      "description": "Update child profile based on feedback",
+      "args": ["child_name"]
+    }
+  },
+  "cron": {
+    "daily-generation": {
+      "schedule": "0 5 * * *",
+      "command": "generate-all-packets"
+    }
+  },
+  "dependencies": {
+    "reportlab": "PDF generation",
+    "requests": "Shim API communication"
+  }
+}

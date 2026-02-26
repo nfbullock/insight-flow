@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated files
+output/
+*.pdf
+
+# Logs
+*.log
+
+# Secrets
+.env
+config.secret.json
+
+# OS
+.DS_Store
+Thumbs.db
