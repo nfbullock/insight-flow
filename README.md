@@ -18,7 +18,7 @@ Customized daily insights and prompts for adults.
 ## Structure
 
 ```
-insightflow/
+insight-flow/
 ├── kids/               # Children's daily packets
 │   ├── skill/         # OpenClaw skill implementation
 │   ├── content/       # Activity databases
