@@ -2,17 +2,17 @@
 
 import json
 import random
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, asdict
 from pathlib import Path
 
-from logic_puzzle_generator import LogicPuzzleGenerator, Difficulty, generate_puzzle_pair
-from riddle_generator import RiddleGenerator, generate_daily_riddles
-from creative_prompts import CreativePromptGenerator
-from word_activities import WordActivityGenerator
-from math_challenges import MathChallengeGenerator
-from knowledge_nuggets import KnowledgeNuggetGenerator
+from .logic_puzzle_generator import LogicPuzzleGenerator, Difficulty, generate_puzzle_pair
+from .riddle_generator import RiddleGenerator, generate_daily_riddles
+from .creative_prompts import CreativePromptGenerator
+from .word_activities import WordActivityGenerator
+from .math_challenges import MathChallengeGenerator
+from .knowledge_nuggets import KnowledgeNuggetGenerator
 
 
 @dataclass
@@ -369,7 +369,7 @@ class DailyPacketGenerator:
     
     def _generate_teaser(self, packet_date: date, current_theme: str) -> str:
         """Generate excitement for tomorrow"""
-        tomorrow = packet_date + datetime.timedelta(days=1)
+        tomorrow = packet_date + timedelta(days=1)
         tomorrow_theme = self.themes[tomorrow.weekday()]
         
         teasers = {
