@@ -1,0 +1,29 @@
+{
+  "name": "Xander",
+  "age": 6,
+  "grade": 0,
+  "abilities": {
+    "math_level": 4.0,
+    "reading_level": 1.0,
+    "handwriting_level": 0.5
+  },
+  "strengths": [
+    "Advanced mathematical thinking (9-year-old level)",
+    "Pattern recognition",
+    "Visual-spatial reasoning",
+    "Number sense"
+  ],
+  "support_needs": [
+    "Handwriting practice and support",
+    "Reading at first-grade level",
+    "Written expression",
+    "Fine motor skills"
+  ],
+  "adaptations": {
+    "math": "Present complex problems with minimal text",
+    "reading": "Use simple vocabulary, picture support",
+    "writing": "Provide tracing guides, larger spaces",
+    "instructions": "Visual cues over text-heavy directions"
+  },
+  "notes": "Classic twice-exceptional profile - extremely advanced in math but needs support in literacy and fine motor skills"
+}
