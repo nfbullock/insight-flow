@@ -1,0 +1,115 @@
+{
+  "ocean": {
+    "description": "Explore the mysteries of the deep blue sea",
+    "entities": {
+      "creatures": ["dolphin", "shark", "octopus", "seahorse", "whale", "starfish", "crab", "jellyfish", "turtle", "seal"],
+      "explorers": ["diver", "captain", "marine biologist", "photographer", "treasure hunter"],
+      "vehicles": ["submarine", "boat", "diving bell", "research vessel", "kayak"]
+    },
+    "attributes": {
+      "colors": ["blue", "turquoise", "coral", "pearl", "aqua", "navy", "teal", "seafoam"],
+      "locations": ["coral reef", "deep trench", "kelp forest", "tide pool", "open ocean", "shipwreck", "underwater cave"],
+      "treasures": ["pearl", "gold coin", "ancient map", "message in bottle", "seashell", "compass", "crown"]
+    },
+    "vocabulary": {
+      "beginner": ["fish", "swim", "wave", "boat", "sand"],
+      "intermediate": ["current", "tide", "reef", "marine", "depth"],
+      "advanced": ["bioluminescent", "ecosystem", "maritime", "abyss", "cetacean"]
+    }
+  },
+  
+  "space": {
+    "description": "Journey through the cosmos and beyond",
+    "entities": {
+      "people": ["astronaut", "alien", "robot", "scientist", "pilot", "engineer", "captain"],
+      "objects": ["rocket", "satellite", "space station", "rover", "telescope", "meteor"],
+      "places": ["Mars", "Moon", "Jupiter", "asteroid belt", "space station", "alien planet"]
+    },
+    "attributes": {
+      "colors": ["silver", "cosmic blue", "mars red", "star white", "void black", "nebula purple"],
+      "missions": ["explore", "research", "rescue", "discover", "map", "colonize"],
+      "equipment": ["spacesuit", "oxygen tank", "jetpack", "laser", "communicator", "scanner"]
+    },
+    "vocabulary": {
+      "beginner": ["star", "moon", "rocket", "planet", "fly"],
+      "intermediate": ["orbit", "gravity", "asteroid", "galaxy", "launch"],
+      "advanced": ["constellation", "nebula", "trajectory", "atmosphere", "extraterrestrial"]
+    }
+  },
+  
+  "adventure": {
+    "description": "Embark on thrilling quests and discoveries",
+    "entities": {
+      "heroes": ["explorer", "knight", "detective", "archaeologist", "inventor", "scout"],
+      "places": ["jungle", "castle", "cave", "mountain", "desert island", "ancient temple"],
+      "objects": ["map", "compass", "torch", "rope", "treasure chest", "ancient book"]
+    },
+    "attributes": {
+      "qualities": ["brave", "clever", "quick", "strong", "wise", "stealthy"],
+      "challenges": ["puzzle", "riddle", "maze", "bridge", "locked door", "hidden passage"],
+      "rewards": ["gold", "gem", "knowledge", "friendship", "magical item", "secret"]
+    },
+    "vocabulary": {
+      "beginner": ["find", "look", "help", "brave", "treasure"],
+      "intermediate": ["quest", "journey", "discover", "ancient", "mystery"],
+      "advanced": ["expedition", "artifact", "decipher", "navigate", "legendary"]
+    }
+  },
+  
+  "science": {
+    "description": "Discover how the world works through experiments",
+    "entities": {
+      "scientists": ["chemist", "biologist", "physicist", "inventor", "researcher"],
+      "tools": ["microscope", "beaker", "magnet", "thermometer", "telescope", "computer"],
+      "subjects": ["plants", "animals", "rocks", "weather", "machines", "light"]
+    },
+    "attributes": {
+      "properties": ["hot", "cold", "magnetic", "electric", "liquid", "solid", "gas"],
+      "actions": ["mix", "measure", "observe", "record", "predict", "test"],
+      "results": ["reaction", "discovery", "pattern", "change", "growth", "solution"]
+    },
+    "vocabulary": {
+      "beginner": ["mix", "grow", "hot", "cold", "change"],
+      "intermediate": ["experiment", "observe", "measure", "hypothesis", "data"],
+      "advanced": ["molecule", "photosynthesis", "magnetism", "laboratory", "conclusion"]
+    }
+  },
+  
+  "creative": {
+    "description": "Unleash imagination through art and stories",
+    "entities": {
+      "creators": ["artist", "writer", "musician", "dancer", "sculptor", "poet"],
+      "tools": ["paintbrush", "pencil", "clay", "instrument", "camera", "stage"],
+      "creations": ["painting", "story", "song", "sculpture", "poem", "dance"]
+    },
+    "attributes": {
+      "styles": ["colorful", "dramatic", "whimsical", "abstract", "realistic", "fantastical"],
+      "emotions": ["joyful", "peaceful", "exciting", "mysterious", "playful", "thoughtful"],
+      "techniques": ["blend", "sketch", "compose", "design", "imagine", "express"]
+    },
+    "vocabulary": {
+      "beginner": ["draw", "color", "make", "pretty", "story"],
+      "intermediate": ["create", "design", "imagine", "express", "pattern"],
+      "advanced": ["composition", "perspective", "inspiration", "technique", "masterpiece"]
+    }
+  },
+  
+  "history": {
+    "description": "Travel through time to meet the past",
+    "entities": {
+      "people": ["pharaoh", "knight", "explorer", "inventor", "ruler", "scholar"],
+      "places": ["pyramid", "castle", "ancient city", "battlefield", "library", "palace"],
+      "objects": ["scroll", "sword", "crown", "artifact", "map", "time machine"]
+    },
+    "attributes": {
+      "eras": ["ancient", "medieval", "renaissance", "modern", "prehistoric", "future"],
+      "discoveries": ["writing", "wheel", "fire", "printing press", "electricity", "flight"],
+      "cultures": ["Egyptian", "Greek", "Roman", "Viking", "Aztec", "Chinese"]
+    },
+    "vocabulary": {
+      "beginner": ["old", "king", "castle", "long ago", "story"],
+      "intermediate": ["ancient", "history", "civilization", "discovery", "timeline"],
+      "advanced": ["archaeology", "dynasty", "revolution", "artifact", "chronicle"]
+    }
+  }
+}
